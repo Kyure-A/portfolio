@@ -7,5 +7,12 @@
     "@s/*": [
       "styled-system/*"
     ]
+  },
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "@astrojs/ts-plugin"
+      },
+    ],
   }
 }
