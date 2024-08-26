@@ -1,5 +1,5 @@
 {
-  "name": "virtual-venus",
+  "name": "kyre.moe",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,11 +10,22 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.3",
     "@astrojs/mdx": "^3.1.4",
     "@astrojs/rss": "^4.0.7",
     "@astrojs/sitemap": "^3.1.6",
     "astro": "^4.14.5",
-    "@astrojs/check": "^0.9.3",
     "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.8",
+    "@types/node": "^22.5.0",
+    "@types/react": "^18.3.4",
+    "react": "^18.3.1",
+    "rehype-stringify": "^10.0.0",
+    "unified": "^11.0.5",
+    "uniorg": "^1.2.0",
+    "uniorg-parse": "^3.0.1",
+    "uniorg-rehype": "^1.2.0"
   }
 }
