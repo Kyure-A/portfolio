@@ -5,5 +5,7 @@ in pkgs.mkShell {
 
   buildInputs = with pkgs; [
     bun
+    biome
+    nodePackages.typescript-language-server
   ];
 }
